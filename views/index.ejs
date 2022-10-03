@@ -1,0 +1,15 @@
+<%- include partials/header.ejs%>
+<%- include partials/main_nav.ejs%>
+  <!-- Main Section-->
+  <% if(title == "Contact Me") { %>
+    <main class="contect_page">
+      <%- include partials/contents.ejs%>
+    </main>
+  <% } else {%>
+    <main class="container">
+      <%- include partials/contents.ejs%>
+    </main>
+  <% }%>
+
+<%- include partials/bottom_nav.ejs%>
+<%- include partials/footer.ejs%>
